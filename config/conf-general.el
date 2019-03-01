@@ -37,9 +37,6 @@
 (cua-mode t) 
 (setq cua-enable-cua-keys nil) 
 
-;; 導入パッケージ保存場所を load-pathに追加
-; (setq load-path (cons "c:/Users/outer/emacs/my_packages/" load-path))
-
 ;; 自動保存されるバックアップファイルの置き場所を ~/.emacs.d/backup に変更する
 (setq backup-directory-alist 
   (cons (cons ".*" (expand-file-name "~/.emacs.d/backup")) 

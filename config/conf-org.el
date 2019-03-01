@@ -1,6 +1,6 @@
 ;; org-mode 9
-(add-to-list 'load-path "c:/Users/outer/emacs/my_packages/org-9.1.6/lisp" t)
-(add-to-list 'load-path "c:/Users/outer/emacs/my_packages/org-9.1.6/contrib/lisp" t)
+(add-to-list 'load-path "~/.emacs.d/my_packages/org-9.1.6/lisp" t)
+(add-to-list 'load-path "~/.emacs.d/my_packages/org-9.1.6/contrib/lisp" t)
 
 ;; 先頭以外のな "*" を表示しない
 (setq org-hide-leading-stars t)
